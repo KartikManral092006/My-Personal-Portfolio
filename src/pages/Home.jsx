@@ -2,6 +2,8 @@ import { ThemeToggle } from "../components/themeToggle.jsx"
 import { StarBackground } from "../components/StarBackGround.jsx";
 import { NavBar } from "../components/NavigationBar.jsx"
 import { HeroSection } from "../components/HeroSection.jsx"
+import {About} from "../components/AboutMe.jsx"
+import { SkillsSection } from "../components/SkillsSection.jsx";
 
 export const Home = () =>{
     return (
@@ -13,6 +15,10 @@ export const Home = () =>{
         <main>
             <HeroSection />
         </main>
+
+        <About />
+
+        <SkillsSection />
 
 
 
