@@ -4,6 +4,8 @@ import { NavBar } from "../components/NavigationBar.jsx"
 import { HeroSection } from "../components/HeroSection.jsx"
 import {About} from "../components/AboutMe.jsx"
 import { SkillsSection } from "../components/SkillsSection.jsx";
+import { ProjectSection } from "../components/ProjectSections.jsx";
+import { ContactSection } from "../components/ContactSection.jsx";
 
 export const Home = () =>{
     return (
@@ -19,6 +21,10 @@ export const Home = () =>{
         <About />
 
         <SkillsSection />
+
+        <ProjectSection />
+
+        <ContactSection />
 
 
 

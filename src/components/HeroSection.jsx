@@ -16,7 +16,7 @@ export const HeroSection = () =>{
                     </p>
 
                 <div className=" pt-4 opacity-0 animate-fade-in-delay-4">
-                    <a href="#Projects" className="cosmic-button">View My Work</a>
+                    <a href="#projects" className="cosmic-button">View My Work</a>
                 </div>
                 </div>
             </div>
@@ -26,7 +26,7 @@ export const HeroSection = () =>{
                 <ArrowDown className="animate-bounce h-5 w-5 text-primary"/>
 
                 </div>
-                
+
         </section>
     )
 }
