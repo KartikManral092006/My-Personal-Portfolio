@@ -10,7 +10,6 @@ export const StarBackground = ()=> {
 
         const handleResize = () => {
             generateStars();
-            generateMeteors();
         };
 
         window.addEventListener('resize', handleResize);
@@ -49,7 +48,7 @@ export const StarBackground = ()=> {
                 size: Math.random() *2 +1 ,
                 x : Math.random() * 100,
                 y: Math.random() *20 ,
-                delay : Math.random() *15,
+                delay : -Math.random() *15,
                 animationDuration : Math.random() *3 +3,
             });
         }
@@ -57,7 +56,7 @@ export const StarBackground = ()=> {
     }
 
     return (
-        <div className="fixd inset-0  overflow-hidden pointer-events-none z-0">
+        <div className="fixed inset-0  overflow-hidden pointer-events-none z-0">
             {stars.map((star)=>(
                 <div key={star.id} className="star animate-pulse-subtle"  style={{
                     width : star.size + "px",
